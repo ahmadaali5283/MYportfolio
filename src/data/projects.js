@@ -9,6 +9,8 @@ import postgresqlIcon from "../assets/postgresql.svg";
 import typescriptIcon from "../assets/typescript.svg";
 import socketioIcon from "../assets/socketioIcon.svg";
 import prismaIcon from "../assets/prismaIcon.svg";
+import fastapiIcon from "../assets/FastAPI.svg";
+import googleGeminiIcon from "../assets/gemini-color.svg";
 import cineverse1 from "../assets/cineverse1.jpg";
 import cineverse2 from "../assets/cineverse2.jpg";
 import cineverse3 from "../assets/cineverse3.jpg";
@@ -27,10 +29,40 @@ import konvo1 from "../assets/konvo1.png";
 import konvo2 from "../assets/konvo2.png";
 import konvo3 from "../assets/konvo3.png";
 import konvo4 from "../assets/konvo4.png";
+import evalvision1 from "../assets/evalvision1.png";
+import evalvision2 from "../assets/evalvision2.png";
+import evalvision3 from "../assets/evalvision3.png";  
+import evalvision4 from "../assets/evalvision4.png";
+import evalvision5 from "../assets/evalvision5.png";
+import evalvision6 from "../assets/evalvision6.png";
+import evalvision7 from "../assets/evalvision7.png";
 
 export const myprojects = [
   {
     index: 0,
+    title: "EvalVision AI",
+    description: `EvalVision AI is a modern automated grading and evaluation web application designed to offer educators a streamlined and intelligent assessment experience. Built with a clean, responsive UI, a robust backend architecture, and a dedicated AI processing service, the platform emphasizes accuracy, efficiency by making it easy for teachers to evaluate student submissions and provide detailed feedback anytime.
+
+        Exam Management: Users can intuitively create and organize exams, each complete with designated rubrics and specific grading criteria.
+
+        Automated AI Grading: Seamlessly process student submissions through advanced AI and OCR services that extract text and evaluate answers based on established rubrics.
+
+        Submission Tracking: A built-in upload portal allows educators to quickly submit student assignments, track their grading status, and manage batches of documents.
+
+        Detailed Evaluation Insights: A modern central dashboard summarizing assignment scores, AI-generated feedback, and criteria breakdowns for quick access.
+
+        Interactive Results Panel: Explore student performance charts, review AI scoring decisions, and easily override or adjust grades to maintain full control over the assessment process.
+
+        Secure Handling: Safe submission and storage of exams, rubrics, and sensitive student data with validated endpoints and robust backend protection.
+
+        Responsive UI: Fully optimized for mobile, tablet, and desktop to ensure a smooth user experience across devices.`,
+    techstack: [reactIcon, nodeIcon, expressIcon, mongodbIcon, fastapiIcon, googleGeminiIcon, tailwindIcon],
+    images: [evalvision1, evalvision2, evalvision3, evalvision4, evalvision5, evalvision6, evalvision7],
+    githublink: "https://github.com/rajaomar99/EvalVisionAI",
+    sitelink: "https://eval-vision-client.vercel.app",
+  },
+  {
+    index: 1,
     title: "HubSpace By TT",
     description: `HubSpace by TT is a modern coworking space management web application designed to offer professionals a streamlined and interactive workspace-booking experience. Built with a clean, responsive UI and a robust backend architecture, the platform emphasizes convenience, flexibility, and user engagement—making it easy for individuals and teams to access coworking services anytime.
 
@@ -55,7 +87,7 @@ export const myprojects = [
     sitelink: "https://www.hubspacebytt.com",
   },
   {
-    index: 1,
+    index: 2,
     title: "Circle",
     description: `Circle is a full-stack social media web application designed to provide users with a seamless and engaging community experience. Built using Next.js 14 with React on the frontend, Prisma ORM and PostgreSQL for robust database management, and Clerk for authentication, the platform is optimized for performance, real-time interactivity, and scalability.
         
@@ -81,7 +113,7 @@ export const myprojects = [
     sitelink: "",
   },
   {
-    index: 2,
+    index: 3,
     title: "CineVerse",
     description: `CineVerse is a full-stack theater management web application designed to provide users with a seamless and interactive movie-booking experience. Built using React on the frontend, Node.js and Express on the backend, and SQL Server for robust database management, the platform is optimized for performance, usability, and scalability.
 
@@ -104,7 +136,7 @@ export const myprojects = [
     sitelink: "",
   },
   {
-    index: 3,
+    index: 4,
     title: "Konvo",
     description: `Konvo is a full-stack real-time chat web application designed to provide users with a seamless and interactive messaging experience. Built using React on the frontend, Node.js and Express on the backend, and MongoDB for robust database management, the platform is optimized for performance, usability, and scalability.
 
