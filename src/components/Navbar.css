@@ -75,9 +75,12 @@ nav::before {
 
 .box:hover {
   color: var(--text-primary);
-  background: rgba(255, 255, 255, 0.05);
   font-size: 0.95rem;
   text-decoration: none;
+}
+
+.lets-talk-but:hover {
+  background: transparent;
 }
 
 .box:hover::after {
@@ -96,13 +99,11 @@ nav::before {
   cursor: pointer;
   transition: var(--transition);
   letter-spacing: 0.02em;
-  box-shadow: 0 4px 16px var(--accent-glow);
 }
 
 .navbar .lets-talk-but button:hover {
   background: transparent;
   color: var(--accent);
-  box-shadow: 0 4px 24px var(--accent-glow);
   font-size: 0.9rem;
   transform: translateY(-1px);
 }

@@ -7,10 +7,12 @@ import ProjectDetails from './pages/ProjectDetails'
 import ContactForm from './pages/ContactForm'
 import Contact from './pages/Contact'
 import About from './pages/About'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Navbar />
         <Routes>

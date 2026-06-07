@@ -31,11 +31,16 @@ import konvo3 from "../assets/konvo3.png";
 import konvo4 from "../assets/konvo4.png";
 import evalvision1 from "../assets/evalvision1.png";
 import evalvision2 from "../assets/evalvision2.png";
-import evalvision3 from "../assets/evalvision3.png";  
+import evalvision3 from "../assets/evalvision3.png";
 import evalvision4 from "../assets/evalvision4.png";
 import evalvision5 from "../assets/evalvision5.png";
 import evalvision6 from "../assets/evalvision6.png";
 import evalvision7 from "../assets/evalvision7.png";
+import maalmanager1 from "../assets/maalmanager1.png";
+import maalmanager2 from "../assets/maalmanager2.png";
+import maalmanager3 from "../assets/maalmanager3.png";
+import maalmanager4 from "../assets/maalmanager4.png";
+import maalmanager5 from "../assets/maalmanager5.png";
 
 export const myprojects = [
   {
@@ -56,8 +61,24 @@ export const myprojects = [
         Secure Handling: Safe submission and storage of exams, rubrics, and sensitive student data with validated endpoints and robust backend protection.
 
         Responsive UI: Fully optimized for mobile, tablet, and desktop to ensure a smooth user experience across devices.`,
-    techstack: [reactIcon, nodeIcon, expressIcon, mongodbIcon, fastapiIcon, googleGeminiIcon, tailwindIcon],
-    images: [evalvision1, evalvision2, evalvision3, evalvision4, evalvision5, evalvision6, evalvision7],
+    techstack: [
+      reactIcon,
+      nodeIcon,
+      expressIcon,
+      mongodbIcon,
+      fastapiIcon,
+      googleGeminiIcon,
+      tailwindIcon,
+    ],
+    images: [
+      evalvision1,
+      evalvision2,
+      evalvision3,
+      evalvision4,
+      evalvision5,
+      evalvision6,
+      evalvision7,
+    ],
     githublink: "https://github.com/rajaomar99/EvalVisionAI",
     sitelink: "https://eval-vision-client.vercel.app",
   },
@@ -88,6 +109,43 @@ export const myprojects = [
   },
   {
     index: 2,
+    title: "Maal Manager",
+    description: `Maal Manager is a modern Restock planning & reorder alerts tool designed to help Pakistani kiryana store owners replace paper notebooks with a fast, mobile-first digital system. Built as a take-home assignment for a YC-backed Pakistani startup, the platform focuses on simplicity, real-time visibility, and a UX tailored specifically for local store owners — making it easy to track stock, catch shortages early, and stay on top of daily operations.
+
+        Dashboard Overview: A central dashboard showing total products, low-stock count, out-of-stock count, total inventory value in PKR, today's revenue, and a live feed of the last 10 stock movements.
+
+        Inventory Management: Browse, search, and filter all products by category or stock status. Add new products, edit details, delete with confirmation, and view a full movement history per product.
+
+        Quick Stock Updates: Tap + or − directly from the product list for instant optimistic stock updates — no page reload, with a toast notification on every change.
+
+        Reorder Alerts: A dedicated alerts page lists every product at or below its minimum threshold, sorted by urgency, with a one-tap restock action to log incoming quantities.
+
+        Alert Banner: A persistent banner appears on every page showing a live count of items that need restocking, with a direct link to the alerts page.
+
+        PDF Export & WhatsApp Share: Generate a printable restock list and share it with a supplier in one tap — built for how kiryana store owners actually communicate.
+
+        Pakistani-First UX: PKR currency formatting (Rs. 1,250), Urdu script support, and pre-seeded with 15 real Pakistani products (Tapal Danedar, Shan Masala, Dalda Cooking Oil, etc.) so the app feels lived-in from day one.
+
+        Mobile-First Design: Bottom navigation on mobile and a sidebar on desktop, with large touch targets optimized for small-screen use.`,
+    techstack: [
+      nextjsIcon,
+      typescriptIcon,
+      postgresqlIcon,
+      prismaIcon,
+      tailwindIcon,
+    ],
+    images: [
+      maalmanager1,
+      maalmanager2,
+      maalmanager3,
+      maalmanager4,
+      maalmanager5,
+    ],
+    githublink: "https://github.com/rajaomar99/MaalManager",
+    sitelink: "https://maal-manager.vercel.app",
+  },
+  {
+    index: 3,
     title: "Circle",
     description: `Circle is a full-stack social media web application designed to provide users with a seamless and engaging community experience. Built using Next.js 14 with React on the frontend, Prisma ORM and PostgreSQL for robust database management, and Clerk for authentication, the platform is optimized for performance, real-time interactivity, and scalability.
         
@@ -107,13 +165,19 @@ export const myprojects = [
 
         Responsive UI: Mobile-friendly design with a dedicated mobile navbar and adaptive layouts optimized for all screen sizes.
         `,
-    techstack: [nextjsIcon, typescriptIcon, postgresqlIcon, prismaIcon, tailwindIcon],
+    techstack: [
+      nextjsIcon,
+      typescriptIcon,
+      postgresqlIcon,
+      prismaIcon,
+      tailwindIcon,
+    ],
     images: [circle1, circle2, circle3],
     githublink: "https://github.com/rajaomar99/Circle",
     sitelink: "",
   },
   {
-    index: 3,
+    index: 4,
     title: "CineVerse",
     description: `CineVerse is a full-stack theater management web application designed to provide users with a seamless and interactive movie-booking experience. Built using React on the frontend, Node.js and Express on the backend, and SQL Server for robust database management, the platform is optimized for performance, usability, and scalability.
 
@@ -136,7 +200,7 @@ export const myprojects = [
     sitelink: "",
   },
   {
-    index: 4,
+    index: 5,
     title: "Konvo",
     description: `Konvo is a full-stack real-time chat web application designed to provide users with a seamless and interactive messaging experience. Built using React on the frontend, Node.js and Express on the backend, and MongoDB for robust database management, the platform is optimized for performance, usability, and scalability.
 
@@ -153,7 +217,14 @@ export const myprojects = [
         State Management: Application state is managed efficiently using Zustand, ensuring an optimal and bug-free messaging experience.
 
         Responsive UI: Mobile-friendly and optimized for various screen sizes for the best viewing experience.`,
-    techstack: [reactIcon, nodeIcon, expressIcon, mongodbIcon, tailwindIcon, socketioIcon],
+    techstack: [
+      reactIcon,
+      nodeIcon,
+      expressIcon,
+      mongodbIcon,
+      tailwindIcon,
+      socketioIcon,
+    ],
     images: [konvo1, konvo2, konvo3, konvo4],
     githublink: "https://github.com/rajaomar99/Konvo",
     sitelink: "",
