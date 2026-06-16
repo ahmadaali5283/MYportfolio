@@ -9,7 +9,7 @@ const Home = () => {
     <main className="main">
       <div className="texts">
         <div className="hero-headline">
-          <span className="line-normal">Hi, I'm Omar</span>
+          <span className="line-normal">Hi, I'm Ahmad</span>
           <span className="line-accent">Full Stack Dev.</span>
         </div>
 
