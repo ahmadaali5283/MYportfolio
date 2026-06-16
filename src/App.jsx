@@ -8,7 +8,6 @@ import ContactForm from './pages/ContactForm'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import ScrollToTop from './components/ScrollToTop'
-
 function App() {
   return (
     <Router>

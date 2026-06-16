@@ -21,22 +21,21 @@ const About = () => {
           <span className="about-title-accent">with purpose.</span>
         </h1>
       </div>
-
       <div className="about-grid">
         <div className="about-text-col">
           <p>
-            I'm a Full-Stack Developer focused on building fast, scalable web
-            applications and incorporating intelligent automation into modern
-            workflows. My core stack centers around TypeScript, React/Next.js,
-            and Node.js/Express, alongside Python/FastAPI for backend services
-            and data layers.
+            I'm a Full-Stack & AI Engineer building fast,
+            scalable web applications with intelligent features at their core.
+            My stack spans TypeScript, React/Next.js, and Node.js/Express
+            on the full-stack side, with Python/FastAPI, LangChain,
+            and LLM integrations powering the AI layer.
           </p>
           <p>
-            Currently, I’m bridging the gap between web development and AI by
-            implementing practical LLM integrations and building autonomous
-            workflows with n8n. Whether designing responsive frontends with
-            Tailwind or managing data across MongoDB and PostgreSQL, I focus on
-            clean architecture and reliable execution.
+            Currently bridging web development and AI by building production
+            LLM integrations with LangChain and designing autonomous workflows
+            with n8n. Whether architecting responsive frontends with Tailwind
+            or managing data across MongoDB and PostgreSQL,
+            I focus on clean, scalable systems that deliver real results.
           </p>
         </div>
 

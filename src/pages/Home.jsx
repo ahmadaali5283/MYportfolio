@@ -3,22 +3,19 @@ import "./Home.css";
 import displaypic from "../assets/displaypic.jpg";
 import { Link } from "react-router-dom";
 import { iconsInfo } from "../data/icons";
-
 const Home = () => {
   return (
     <main className="main">
       <div className="texts">
         <div className="hero-headline">
           <span className="line-normal">Hi, I'm Ahmad</span>
-          <span className="line-accent">Full Stack Dev.</span>
+          <span className="line-accent">Full-Stack Developer & AI Engineer.</span>
         </div>
-
         <p className="hero-sub">
-          Full-Stack Developer building high-performance web applications.
-          Focused on clean architecture, seamless UX, and integrating
-          intelligent features into production software.
+          Full-Stack Developer & AI Engineer specializing in high-performance web applications with intelligent integrations.
+          From scalable backends to intuitive frontends— with AI baked in
+          at every layer.
         </p>
-
         <div className="buttons">
           {iconsInfo.map((icon, index) => (
             <a

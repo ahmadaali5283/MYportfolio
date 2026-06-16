@@ -199,16 +199,13 @@
     border-color: var(--accent);
     transform: translateY(-1px);
 }
-
 @media screen and (max-width: 768px) {
     .contact-grid {
         grid-template-columns: 1fr;
     }
-
     .contact-cta-col {
         position: static;
     }
-
     .contact-page {
         padding: 3rem 0 4rem;
     }

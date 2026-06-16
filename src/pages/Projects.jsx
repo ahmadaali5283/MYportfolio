@@ -3,7 +3,6 @@ import { myprojects } from "../data/projects";
 import ProjectCard from "../components/ProjectCard";
 import "./Projects.css";
 import { Link } from "react-router-dom";
-
 const Projects = () => {
   return (
     <div className="projects-page">
@@ -26,5 +25,4 @@ const Projects = () => {
     </div>
   );
 };
-
 export default Projects;
