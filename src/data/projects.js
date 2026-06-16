@@ -56,7 +56,7 @@ export const myprojects = [
       evalvision6,
       evalvision7,
     ],
-    githublink: "https://github.com/ahmad/EvalVisionAI",
+    githublink: "https://github.com/ahmadaali5283/EVALVISION",
     sitelink: "https://eval-vision-client.vercel.app",
   },
   {
@@ -79,7 +79,7 @@ export const myprojects = [
         Responsive UI: Mobile-friendly and optimized for various screen sizes for the best viewing experience.`,
     techstack: [reactIcon, nodeIcon, expressIcon, sqlserverIcon],
     images: [cineverse1, cineverse2, cineverse3, cineverse4, cineverse5],
-    githublink: "https://github.com/ahmad/CineVerse",
+    githublink: "https://github.com/ahmadaali5283/CineVerseProject",
     sitelink: "",
   }
 ];
