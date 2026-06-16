@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import displaypic from "../assets/displaypic.jpg";
+import displaypic from "../assets/ahmad.jpeg";
 import { Link } from "react-router-dom";
 import { iconsInfo } from "../data/icons";
 const Home = () => {
