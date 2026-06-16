@@ -12,7 +12,7 @@ const Home = () => {
           <span className="line-accent">Full-Stack Developer & AI Engineer.</span>
         </div>
         <p className="hero-sub">
-          Full-Stack Developer & AI Engineer specializing in high-performance web applications with intelligent integrations.
+          Full-Stack Developer AI Engineer specializing in high-performance web applications with intelligent integrations.
           From scalable backends to intuitive frontends— with AI baked in
           at every layer.
         </p>
