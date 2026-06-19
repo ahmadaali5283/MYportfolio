@@ -29,7 +29,10 @@ const ProjectDetails = () => {
           <div className="details-title">{proj.title}</div>
           <div className="techstack-box">
             {proj.techstack.map((tech, i) => (
-              <img src={tech} alt="tech" key={i} />
+              <div className="tech-badge" key={i}>
+                <img src={tech.icon} alt={tech.name} />
+                <span className="tech-name">{tech.name}</span>
+              </div>
             ))}
           </div>
         </div>

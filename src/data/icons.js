@@ -14,8 +14,8 @@ export const iconsInfo = [
   },
   {
     label: "GitHub",
-    value: "ahmadaa5283li",
-    href: "https://github.com/ahmadaa5283li",
+    value: "ahmadaali5283l",
+    href: "https://github.com/ahmadaali5283",
     icon: githubIcon,
   },
   {

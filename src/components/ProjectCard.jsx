@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
       <div className="card-footer">
         <div className="tech-stack">
           {project.techstack.map((tech, i) => (
-            <img src={tech} alt="techstack" key={i} />
+            <img src={tech.icon} alt={tech.name} title={tech.name} key={i} />
           ))}
         </div>
         <span className="card-cta">View Details</span>
