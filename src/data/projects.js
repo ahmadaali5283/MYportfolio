@@ -10,6 +10,10 @@ import pythonIcon from "../assets/python.svg";
 import pytorchIcon from "../assets/pytorch.svg";
 import viteIcon from "../assets/vite.svg";
 import huggingfaceIcon from "../assets/huggingface-color.svg";
+import groqIcon from "../assets/groq.svg";
+import cloudinaryIcon from "../assets/cloudinary.svg";
+import langchainIcon from "../assets/langchain-color.svg";
+import chromaIcon from "../assets/Chroma--Streamline-Svg-Logos.svg";
 
 import cineverse1 from "../assets/cineverse1.jpg";
 import cineverse2 from "../assets/cineverse2.jpg";
@@ -27,6 +31,11 @@ import evalvision7 from "../assets/evalvision7.png";
 
 import leaflens1 from "../assets/leaflens1.PNG";
 import leaflens2 from "../assets/leaflens2.PNG";
+
+import goconect1 from "../assets/goconect1.PNG";
+import chatapp2 from "../assets/chatapp2.PNG";
+import chatapp3 from "../assets/chatapp3.PNG";
+import chatapp4 from "../assets/chatapp4.PNG";
 
 export const myprojects = [
   {
@@ -90,11 +99,39 @@ export const myprojects = [
       { name: "PyTorch", icon: pytorchIcon },
     ],
     images: [leaflens1, leaflens2],
-    githublink: "",
+    githublink: "https://github.com/ahmadaali5283/Leaflens-AI",
     sitelink: "",
   },
   {
     index: 2,
+    title: "GoConnect - ChatApp with RAG Assistant",
+    description: `GoConnect is a full-stack, real-time chat application featuring secure authentication, media sharing, and an AI-powered Retrieval-Augmented Generation (RAG) assistant. The platform combines a responsive React frontend with an Express/Node.js backend and a dedicated FastAPI AI service.
+
+        Real-Time Chat & Media Uploads: Built with Socket.io for instant messaging, featuring JWT authentication for secure sessions and Cloudinary integration for smooth media file sharing.
+
+        Retrieval-Augmented Generation (RAG): Uses FastAPI, LangChain, and LangGraph to power an intelligent AI assistant. Conversation history and messages are stored in MongoDB and indexed in ChromaDB for fast retrieval.
+
+        Semantic Conversation Search: Leverages HuggingFace Embeddings and ChromaDB vector store to enable users to search their chats semantically, retrieving contextually relevant messages instead of simple keyword matches.
+
+        Context-Aware AI Assistant: The LangGraph-powered chat assistant maintains memory of the ongoing conversation, providing context-aware responses and automatic chat history summarization via Groq LLMs.`,
+    techstack: [
+      { name: "React.js", icon: reactIcon },
+      { name: "Tailwind CSS", icon: tailwindIcon },
+      { name: "Node.js", icon: nodeIcon },
+      { name: "Express.js", icon: expressIcon },
+      { name: "MongoDB", icon: mongodbIcon },
+      { name: "FastAPI", icon: fastapiIcon },
+      { name: "LangChain & LangGraph", icon: langchainIcon },
+      { name: "ChromaDB", icon: chromaIcon },
+      { name: "Groq LLM", icon: groqIcon },
+      { name: "Cloudinary", icon: cloudinaryIcon },
+    ],
+    images: [goconect1, chatapp2, chatapp3, chatapp4],
+    githublink: "https://github.com/ahmadaali5283/chatapp",
+    sitelink: "https://chatapp-cu1kq3oa0-ahmad-alis-projects-6fee7d15.vercel.app",
+  },
+  {
+    index: 3,
     title: "CineVerse",
     description: `CineVerse is a full-stack theater management web application designed to provide users with a seamless and interactive movie-booking experience. Built using React on the frontend, Node.js and Express on the backend, and SQL Server for robust database management, the platform is optimized for performance, usability, and scalability.
 
